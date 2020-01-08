@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class DestroyTile : MonoBehaviour
+public class DetectTile : MonoBehaviour
 {
     public GameObject player;
 

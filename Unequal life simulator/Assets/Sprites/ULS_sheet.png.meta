@@ -29,6 +29,33 @@ TextureImporter:
   - first:
       213: 2576843274454513063
     second: ULS_sheet_8
+  - first:
+      213: 8139020221195636382
+    second: ULS_sheet_9
+  - first:
+      213: 1780949807883420043
+    second: ULS_sheet_10
+  - first:
+      213: -4371691228868110313
+    second: ULS_sheet_11
+  - first:
+      213: -4781534848009971228
+    second: ULS_sheet_12
+  - first:
+      213: -299771222861863893
+    second: ULS_sheet_13
+  - first:
+      213: 1002303360950991964
+    second: ULS_sheet_14
+  - first:
+      213: -8740269951640363061
+    second: ULS_sheet_15
+  - first:
+      213: 3811534966205633221
+    second: ULS_sheet_16
+  - first:
+      213: -8700538835764802186
+    second: ULS_sheet_17
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -117,9 +144,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 32
-        height: 32
+        y: 112
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +164,10 @@ TextureImporter:
       name: ULS_sheet_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
+        x: 48
+        y: 112
+        width: 16
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,6 +324,195 @@ TextureImporter:
       bones: []
       spriteID: ba31a8fbdf6a371479ac9a2cff02ccbc
       internalID: 2576843274454513063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 32
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb21de1394db122408af77366892a0ea
+      internalID: 8139020221195636382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 42
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eba4a6fa4dbf1c45af37bff66dfa028
+      internalID: 1780949807883420043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 42
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da864057d9f5eb43bc408f7b0d4d78e
+      internalID: -4371691228868110313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 41
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9358f68720ac67c43a5f108da3f10d88
+      internalID: -4781534848009971228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aedfc5343f4574ca6709b5af93b75e
+      internalID: -299771222861863893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc356020f6ba3b46a071ef59ec087b0
+      internalID: 1002303360950991964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90626c1e54e34b4faabd4cdf58d1799
+      internalID: -8740269951640363061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930d33d17dd7c514aaadc38027ea082f
+      internalID: 3811534966205633221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ULS_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a69122886d7a7499697ccdb8fee8dd
+      internalID: -8700538835764802186
       vertices: []
       indices: 
       edges: []

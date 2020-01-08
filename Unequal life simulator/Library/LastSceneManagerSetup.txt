@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Car Roll.unity
+- path: Assets/Scenes/Ahmad Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
