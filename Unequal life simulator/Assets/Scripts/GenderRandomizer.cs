@@ -12,8 +12,8 @@ public class GenderRandomizer : MonoBehaviour {
 		if (rnd == 1) //1 for male
 			player.sprite = character[0];
 		else player.sprite = character[1]; //2 for female
-	
-		print(rnd);
+
+		PlayerPrefs.SetInt("gender", rnd);
 	}
 	
 }
