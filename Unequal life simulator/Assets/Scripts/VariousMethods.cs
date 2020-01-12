@@ -70,4 +70,9 @@ public class VariousMethods : MonoBehaviour
 
         coinText.GetComponent<Text>().text = (current + gained).ToString();
     }
+
+    public void SwitchTrigger()
+    {
+        GetComponent<BoxCollider2D>().enabled = !GetComponent<BoxCollider2D>().enabled;
+    }
 }
