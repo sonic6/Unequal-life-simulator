@@ -75,4 +75,6 @@ public class VariousMethods : MonoBehaviour
     {
         GetComponent<BoxCollider2D>().enabled = !GetComponent<BoxCollider2D>().enabled;
     }
+
+
 }
