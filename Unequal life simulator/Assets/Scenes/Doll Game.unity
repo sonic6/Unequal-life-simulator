@@ -540,7 +540,7 @@ MonoBehaviour:
       - fsmEvent:
           name: game over
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: Game over
         linkStyle: 0
         linkConstraint: 0
@@ -900,12 +900,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.PlayerPrefsSetInt
+        - HutongGames.PlayMaker.Actions.PlayerPrefsSetInt
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: e2703a04
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: e2703a04e2703a04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -922,6 +924,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: F_money
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: age
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -934,6 +942,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -942,27 +956,33 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams: []
         byteData: 
-        arrayParamSizes: 0100000001000000
+        arrayParamSizes: 01000000010000000100000001000000
         arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmInt
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmInt
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c000000120000000c00000010000000
+        paramDataType: 0c000000120000000c000000100000000c000000120000000c00000010000000
         paramName:
         - keys
         - 
         - values
         - 
-        paramDataPos: 00000000000000000100000000000000
-        paramByteDataSize: 00000000000000000000000000000000
+        - keys
+        - 
+        - values
+        - 
+        paramDataPos: 0000000000000000010000000000000002000000010000000300000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
     - name: game over
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables: []

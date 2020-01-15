@@ -12,7 +12,7 @@ public class Chearleading : MonoBehaviour
     PlayMakerFSM myFsm;
     int myInt;
 
-    private void Start()
+    private void Awake()
     {
         myFsm = GetComponent<PlayMakerFSM>();
     }

@@ -8167,14 +8167,16 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.PlayerPrefsSetInt
+        - HutongGames.PlayMaker.Actions.PlayerPrefsSetInt
         - HutongGames.PlayMaker.Actions.SetAnimatorBool
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: e2703a045f913504
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000400000008000000
+        actionHashCodes: e2703a04e2703a045f913504
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -8204,6 +8206,12 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: age
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: pass
         fsmObjectParams: []
         fsmVarParams: []
@@ -8213,6 +8221,12 @@ MonoBehaviour:
         fsmIntParams:
         - useVariable: 1
           name: coins
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8231,14 +8245,20 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams: []
         byteData: 0000000000
-        arrayParamSizes: 0100000001000000
+        arrayParamSizes: 01000000010000000100000001000000
         arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmInt
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmInt
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c000000120000000c000000100000001400000012000000110000000100000007000000
+        paramDataType: 0c000000120000000c000000100000000c000000120000000c000000100000001400000012000000110000000100000007000000
         paramName:
+        - keys
+        - 
+        - values
+        - 
         - keys
         - 
         - values
@@ -8248,8 +8268,8 @@ MonoBehaviour:
         - Value
         - everyFrame
         - everyFrameOption
-        paramDataPos: 000000000000000001000000000000000000000001000000000000000000000001000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000004000000
+        paramDataPos: 00000000000000000100000000000000020000000100000003000000010000000000000002000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000004000000
     events:
     - name: FINISHED
       isSystemEvent: 1

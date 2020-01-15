@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Ahmad Scene.unity
+    path: Assets/Scenes/Prefs Eraser scene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/main menu Scene.unity
     guid: 94b5d7acdc20c8d428204511f7aff4df
   - enabled: 1
     path: Assets/Scenes/Car Roll.unity
     guid: 399a81fcb9d229040ab48d18dc063656
+  - enabled: 1
+    path: Assets/Scenes/Doll Game.unity
+    guid: 0bc530e5a197bf14f8eca8fe888d9c63
+  - enabled: 1
+    path: Assets/Scenes/baseball.unity
+    guid: 0225af0ea50a8bf43bdc4641f32c5008
+  - enabled: 1
+    path: Assets/Scenes/cheerleading.unity
+    guid: 022078f3987956e45bcb3bf74729ed47
   m_configObjects: {}
